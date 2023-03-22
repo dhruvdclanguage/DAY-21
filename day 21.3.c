@@ -1,12 +1,12 @@
 #include<stdio.h>
+#include<string.h>
 
 int main (){
 	
-	char a[] = "Hello";
-	
-	
+	char a[50];
+		
 	printf("Enter value :");
-	scanf("%s",a);
+	gets(a);
 	
     printf("string Lowercase : %s", strlwr(a));
 	  
